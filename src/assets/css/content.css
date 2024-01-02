@@ -1,0 +1,38 @@
+.container-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 60px;
+    gap: 30px;
+}
+
+.list-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 30px;
+}
+
+.title-content{
+    font-family: Roboto-Bold;
+    font-size: 40px;
+}
+
+p{
+    font-family: Roboto-Regular;
+    font-size: 1.1em;
+}
+
+.item{
+    display: flex;
+    gap: 20px;
+}
+
+@media (min-width: 992px) {
+    .container {
+      background-color: rgb(20, 20, 61);
+      
+    }
+  }

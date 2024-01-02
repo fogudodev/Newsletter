@@ -1,0 +1,26 @@
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+    
+    font-family: Roboto-Bold;
+
+}
+
+label{
+    font-size: 14px;
+}
+
+.label{
+    margin-left: -16em;
+}
+
+input{
+    width: 320px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #c3c3c3;
+    margin-bottom: 10px;
+    
+}

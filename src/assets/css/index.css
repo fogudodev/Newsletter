@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+/* CSS media query dentro de um stylesheet */
+@media (min-width: 992px) {
+    body {
+      background-color: rgb(20, 20, 61);
+    }
+
+    .container {
+        margin-top: 10em;
+        border-radius: 10px;
+    }
+  }
+  
